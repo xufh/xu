@@ -48,6 +48,7 @@ public class UserController {
 	}
 	/**
 	 * 跳转到登录页面
+	 直接更新服务器上的问题
 	 * @return
 	 */
 	@RequestMapping(value="login",method=RequestMethod.GET)
